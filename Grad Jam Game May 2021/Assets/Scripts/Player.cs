@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     public float speed;
     public float jumpPower;
     public int extraJumps = 1;
@@ -12,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     LayerMask groundLayer;
     [SerializeField]
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     [SerializeField]
     Transform feet;
 
@@ -110,6 +109,7 @@ public class Player : MonoBehaviour
         if (!isDashing || isGrounded)
         {
             rb.velocity = new Vector2(speed * mx, rb.velocity.y);
+            
         }
     }
 
