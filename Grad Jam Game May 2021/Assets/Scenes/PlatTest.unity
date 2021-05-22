@@ -663,13 +663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 123acebbacc0eea41ae817cb224f5fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platVelocity: {x: 0, y: 0}
   speed: 10
   jumpPower: 15
   extraJumps: 1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 1048576
+    m_Bits: 2148532224
   rb: {fileID: 1796913590}
   feet: {fileID: 1595348109}
   dashDistance: 15

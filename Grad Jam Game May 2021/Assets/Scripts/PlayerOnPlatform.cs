@@ -18,14 +18,13 @@ public class PlayerOnPlatform : MonoBehaviour
     void OnCollisionStay2D(Collision2D other)
     {
         //Check if on platform
-        Debug.Log("Touching: " + other.gameObject.name);
+        //Debug.Log("Touching: " + other.gameObject.name);
 
         MovingPlatformController platform = other.gameObject.GetComponent<MovingPlatformController>();
 
         if(platform != null){
         platCollider = other.collider;
-        //player.platVelocity = platform.platVelocity;
-        player.rb.transform.parent = transform;
+        player.rb.transform.parent = platform.transform;
         }
 
     }
@@ -37,10 +36,9 @@ public class PlayerOnPlatform : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnCollisionExit2D(Collision2D other)
     {
-      Debug.Log("Left: " + other.gameObject.name);
+      //Debug.Log("Left: " + other.gameObject.name);
 
         if(other.collider == platCollider){
-            player.platVelocity = Vector2.zero;
             player.rb.transform.parent = null;
         }
     }

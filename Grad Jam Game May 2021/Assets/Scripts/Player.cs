@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Vector2 platVelocity = Vector2.zero;
-
     public float speed;
     public float jumpPower;
     public int extraJumps = 1;
@@ -110,10 +108,7 @@ public class Player : MonoBehaviour
     {
         if (!isDashing || isGrounded)
         {
-            //platVelocity.y = 0;
-
-            rb.velocity = new Vector2(speed * mx, rb.velocity.y) + platVelocity;
-            Debug.Log(platVelocity);
+            rb.velocity = new Vector2(speed * mx, rb.velocity.y);
             
         }
     }
