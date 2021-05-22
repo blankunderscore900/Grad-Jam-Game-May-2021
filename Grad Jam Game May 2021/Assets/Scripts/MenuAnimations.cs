@@ -43,7 +43,7 @@ public class MenuAnimations : MonoBehaviour
     {
         // Plays the animation for opening to the start menu of the game
         EventSystem.current.SetSelectedGameObject(null);
-        animator.SetTrigger("NextScreen");
+        animator.SetTrigger("MenuScreen");
         Invoke("MenuStartButton", buttonTimer);
     }
 
@@ -61,8 +61,8 @@ public class MenuAnimations : MonoBehaviour
     {
         // Plays the animation for leaving the start menu
         // and plays the animations for going to the options screen
-        animator.SetTrigger("BackScreen");
-        animator.SetTrigger("OptionsMenu");
+        animator.SetTrigger("MenuLeave");
+        animator.SetTrigger("OptionScreen");
         EventSystem.current.SetSelectedGameObject(null);
         Invoke("OptionsMenuButton", buttonTimer);
     }
@@ -76,8 +76,8 @@ public class MenuAnimations : MonoBehaviour
     {
         // Plays the animation for leaving the options menu
         // and plays the animations for going to the start menu
-        animator.SetTrigger("LeaveOptions");
-        animator.SetTrigger("NextScreen");
+        animator.SetTrigger("OptionLeave");
+        animator.SetTrigger("MenuScreen");
         EventSystem.current.SetSelectedGameObject(null);
         Invoke("LeaveOptionsButton", buttonTimer);
     }
@@ -89,10 +89,10 @@ public class MenuAnimations : MonoBehaviour
 
     public void LeaveMenuForQuit()
     {
-        // Plays the animation for leaving the options menu
-        // and plays the animations for going to the start menu
-        animator.SetTrigger("LeaveOptions");
-        animator.SetTrigger("NextScreen");
+        // Plays the animation for leaving the Main menu
+        // and plays the animations for going to the Quit menu
+        animator.SetTrigger("MenuLeave");
+        animator.SetTrigger("QuitMenu");
         EventSystem.current.SetSelectedGameObject(null);
         Invoke("QuitMenu", buttonTimer);
     }
@@ -104,12 +104,12 @@ public class MenuAnimations : MonoBehaviour
 
     public void LeaveQuit()
     {
-        // Plays the animation for leaving the options menu
+        // Plays the animation for leaving the Quit menu
         // and plays the animations for going to the start menu
-        animator.SetTrigger("LeaveOptions");
-        animator.SetTrigger("NextScreen");
+        animator.SetTrigger("QuitLeave");
+        animator.SetTrigger("MenuScreen");
         EventSystem.current.SetSelectedGameObject(null);
-        Invoke("BackMenun", buttonTimer);
+        Invoke("BackMenu", buttonTimer);
     }
 
     public void BackMenu()
@@ -121,6 +121,11 @@ public class MenuAnimations : MonoBehaviour
     {
         // Quits the game 
         Application.Quit();
+    }
+
+    public void SetLives(int lives)
+    {
+        FindObjectOfType<GM>().playerLives = lives;
     }
 
 }
