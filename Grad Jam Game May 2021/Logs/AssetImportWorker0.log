@@ -15,11 +15,11 @@ C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52555
+60871
 Successfully changed project path to: C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 129.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -34,7 +34,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -42,19 +42,19 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.005077 seconds.
+Registered in 0.004751 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.493 seconds
+- Completed reload, in  2.303 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007703 seconds.
+Registered in 0.003714 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -63,32 +63,38 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
+- Completed reload, in  1.242 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3681 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 144.7 MB.
-System memory in use after: 144.7 MB.
+System memory in use after: 144.8 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4133.
-Total: 2.929500 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.233300 ms MarkObjects: 2.189500 ms  DeleteObjects: 0.115100 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4136.
+Total: 2.611100 ms (FindLiveObjects: 0.312300 ms CreateObjectMapping: 0.259600 ms MarkObjects: 1.934900 ms  DeleteObjects: 0.102900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/MenuAnimations.cs
-  artifactKey: Guid(3ac106034b68f7c449f6722f7a42619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuAnimations.cs using Guid(3ac106034b68f7c449f6722f7a42619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bfba483f45c01c4bf17a6c9e216211') in 0.034038 seconds 
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872f44981bd138d458a828284d96a0c7') in 0.015890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76496c3446b431b442a5bb434828d89f') in 0.003506 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005192 seconds.
+Registered in 0.004519 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -97,216 +103,30 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.973 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4137.
-Total: 2.170100 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.180300 ms MarkObjects: 1.659500 ms  DeleteObjects: 0.079200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.860890 seconds.
-  path: Assets/Scripts/MenuAnimations.cs
-  artifactKey: Guid(3ac106034b68f7c449f6722f7a42619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuAnimations.cs using Guid(3ac106034b68f7c449f6722f7a42619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503cb3acc50f6c8d2c3872c96ccb618b') in 0.006534 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004528 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.7 MB.
 System memory in use after: 140.8 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4141.
-Total: 2.280300 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.182900 ms MarkObjects: 1.675100 ms  DeleteObjects: 0.126200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004298 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4145.
-Total: 2.125200 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.164700 ms MarkObjects: 1.587300 ms  DeleteObjects: 0.125800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 2.762500 ms (FindLiveObjects: 0.268000 ms CreateObjectMapping: 0.247700 ms MarkObjects: 2.134900 ms  DeleteObjects: 0.110600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 301.744397 seconds.
-  path: Assets/Animations/MainMenu.controller
-  artifactKey: Guid(8c02b43edc5b4044f8706d90e9b38695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/MainMenu.controller using Guid(8c02b43edc5b4044f8706d90e9b38695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bd9e244437fb86343e37abc4886f56') in 0.026725 seconds 
+  Time since last request: 44.045347 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bbdd2cbf8ad777269dc3d4e7438498') in 0.015159 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004453 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4149.
-Total: 4.223100 ms (FindLiveObjects: 0.410100 ms CreateObjectMapping: 0.393900 ms MarkObjects: 3.302300 ms  DeleteObjects: 0.115800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004153 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4153.
-Total: 2.160300 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.167300 ms MarkObjects: 1.657000 ms  DeleteObjects: 0.082600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 495.244580 seconds.
-  path: Assets/Animations/QuitExit.anim
-  artifactKey: Guid(38fb7f41e6cc65d4ebe44364a83ac29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/QuitExit.anim using Guid(38fb7f41e6cc65d4ebe44364a83ac29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c86cba5cb294d1e0afa1377ba2d711') in 0.018599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.570780 seconds.
-  path: Assets/Animations/QuitEnter.anim
-  artifactKey: Guid(db68914f36bc8bd4a93157227a35bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/QuitEnter.anim using Guid(db68914f36bc8bd4a93157227a35bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d031fb235b972e326a59cc920a37e2') in 0.004580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.142823 seconds.
-  path: Assets/Animations/OptionsExit.anim
-  artifactKey: Guid(ea6a7d1aefdc24a40aad57a46557420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/OptionsExit.anim using Guid(ea6a7d1aefdc24a40aad57a46557420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aaa2f606c7f5cd14a5f302142493c6') in 0.004562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.828681 seconds.
-  path: Assets/Animations/MenuEnter.anim
-  artifactKey: Guid(00fbe2ac9f03bf0409cfd36e74cec330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/MenuEnter.anim using Guid(00fbe2ac9f03bf0409cfd36e74cec330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da00b273d54405595490212cbf39eb0b') in 0.004762 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004008 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4157.
-Total: 2.316300 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.176600 ms MarkObjects: 1.812300 ms  DeleteObjects: 0.081000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004329 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4161.
-Total: 2.206500 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.168200 ms MarkObjects: 1.719200 ms  DeleteObjects: 0.077900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004091 seconds.
+Registered in 0.003843 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -318,21 +138,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.231 seconds
+- Completed reload, in  0.962 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.8 MB.
 System memory in use after: 140.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4165.
-Total: 2.395400 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.149200 ms MarkObjects: 1.841700 ms  DeleteObjects: 0.158900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 3.081900 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.199900 ms MarkObjects: 2.387800 ms  DeleteObjects: 0.091600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005887 seconds.
+Registered in 0.003934 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -341,50 +161,24 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4169.
-Total: 3.534000 ms (FindLiveObjects: 0.398000 ms CreateObjectMapping: 0.428000 ms MarkObjects: 2.609900 ms  DeleteObjects: 0.096400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004020 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  0.972 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.8 MB.
 System memory in use after: 140.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4173.
-Total: 2.441700 ms (FindLiveObjects: 0.338400 ms CreateObjectMapping: 0.215600 ms MarkObjects: 1.803400 ms  DeleteObjects: 0.083500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 2.499500 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.255100 ms MarkObjects: 1.738300 ms  DeleteObjects: 0.116200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004132 seconds.
+Registered in 0.004261 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -393,310 +187,30 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  1.135 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140.8 MB.
-System memory in use after: 141.0 MB.
+System memory in use after: 140.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4177.
-Total: 2.419600 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.205400 ms MarkObjects: 1.794700 ms  DeleteObjects: 0.081800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4152.
+Total: 2.525100 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.186900 ms MarkObjects: 1.969900 ms  DeleteObjects: 0.091400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1109.356571 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b1b2a9ba54f9f1fdb65bf8e218ccfb') in 0.021159 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.220382 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4181.
-Total: 2.316100 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.176700 ms MarkObjects: 1.716000 ms  DeleteObjects: 0.167000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004427 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4185.
-Total: 2.515500 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.184500 ms MarkObjects: 1.973200 ms  DeleteObjects: 0.082900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005796 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4189.
-Total: 2.641900 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.163100 ms MarkObjects: 2.147700 ms  DeleteObjects: 0.082500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003947 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4193.
-Total: 2.237300 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.191400 ms MarkObjects: 1.694200 ms  DeleteObjects: 0.084400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003991 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4197.
-Total: 2.328000 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.170000 ms MarkObjects: 1.734100 ms  DeleteObjects: 0.084100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005216 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4201.
-Total: 2.597500 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.277300 ms MarkObjects: 1.908700 ms  DeleteObjects: 0.097900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004526 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.257 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4205.
-Total: 2.359500 ms (FindLiveObjects: 0.239100 ms CreateObjectMapping: 0.147400 ms MarkObjects: 1.844900 ms  DeleteObjects: 0.127100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005599 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4209.
-Total: 2.383600 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.179600 ms MarkObjects: 1.861600 ms  DeleteObjects: 0.082900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005954 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4213.
-Total: 2.662700 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.137000 ms  DeleteObjects: 0.122000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004488 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4217.
-Total: 2.436400 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.172300 ms MarkObjects: 1.891200 ms  DeleteObjects: 0.129400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006238 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4221.
-Total: 2.540100 ms (FindLiveObjects: 0.285800 ms CreateObjectMapping: 0.179000 ms MarkObjects: 1.940400 ms  DeleteObjects: 0.134400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003879 seconds.
+Registered in 0.004636 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -708,53 +222,27 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.1 MB.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4225.
-Total: 3.316100 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.165900 ms MarkObjects: 2.694000 ms  DeleteObjects: 0.152700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003884 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4229.
-Total: 2.355400 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.141300 ms MarkObjects: 1.812300 ms  DeleteObjects: 0.143500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4156.
+Total: 2.518100 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.204500 ms MarkObjects: 1.906300 ms  DeleteObjects: 0.102200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4533.506922 seconds.
-  path: Assets/Scripts/AudioManager.cs
-  artifactKey: Guid(1d3d8016f9ae4b147a47b1737a640c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AudioManager.cs using Guid(1d3d8016f9ae4b147a47b1737a640c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693f01fc84622f728177b66dd665d36d') in 0.008529 seconds 
+  Time since last request: 130.117959 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb718cf76f9f395f8bba87320e7b21') in 0.017139 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003601 seconds.
+Registered in 0.003988 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -763,82 +251,50 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4234.
-Total: 2.493400 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.206500 ms MarkObjects: 1.877100 ms  DeleteObjects: 0.128200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005093 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4238.
-Total: 2.308100 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.139500 ms MarkObjects: 1.840300 ms  DeleteObjects: 0.080300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 166.917783 seconds.
-  path: Assets/Scripts/AudioManager.cs
-  artifactKey: Guid(1d3d8016f9ae4b147a47b1737a640c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AudioManager.cs using Guid(1d3d8016f9ae4b147a47b1737a640c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9843ea014f3b4a4bc0deeda9bf1ae') in 0.006659 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005206 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.1 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4242.
-Total: 3.125600 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.238300 ms MarkObjects: 2.368700 ms  DeleteObjects: 0.175100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4160.
+Total: 2.434200 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.171800 ms MarkObjects: 1.888000 ms  DeleteObjects: 0.097200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003940 seconds.
+Registered in 0.006112 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4164.
+Total: 3.174400 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.341900 ms MarkObjects: 2.235000 ms  DeleteObjects: 0.203500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004406 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -850,21 +306,181 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
+- Completed reload, in  0.931 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4168.
+Total: 2.140800 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.170600 ms MarkObjects: 1.602400 ms  DeleteObjects: 0.126100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4172.
+Total: 3.359600 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.317800 ms MarkObjects: 2.521200 ms  DeleteObjects: 0.116300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2537.248446 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3807b917bc02626947ee37277d27e056') in 0.017552 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4176.
+Total: 3.678700 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.435400 ms MarkObjects: 2.736800 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 936.736325 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde6e7c671bf13f25044341742a92f3a') in 0.018673 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4180.
+Total: 3.011600 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.161200 ms MarkObjects: 2.406500 ms  DeleteObjects: 0.141400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003913 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4184.
+Total: 2.915900 ms (FindLiveObjects: 0.277400 ms CreateObjectMapping: 0.194200 ms MarkObjects: 2.353200 ms  DeleteObjects: 0.090000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.485290 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709477a0c95d36c19e53a1222cfdaa89') in 0.015937 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004123 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 141.0 MB.
 System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4246.
-Total: 3.162400 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.220200 ms MarkObjects: 2.412100 ms  DeleteObjects: 0.135200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4188.
+Total: 2.850400 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.375000 ms MarkObjects: 2.018700 ms  DeleteObjects: 0.090100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 446.950443 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a4c25401830a67dd189bdfa488d14') in 0.017468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.792577 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37999bf01240548bb4b2d9d8d901af4e') in 0.004284 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003754 seconds.
+Registered in 0.005575 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -873,94 +489,24 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
+- Completed reload, in  0.985 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 141.0 MB.
-System memory in use after: 141.2 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4250.
-Total: 2.361200 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.154000 ms MarkObjects: 1.858300 ms  DeleteObjects: 0.082700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1943.560790 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a2e6cc3bdf7b8f9da9db2820b76f1b') in 0.101938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.069372 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46da0ec03364474e02c6dedb4225f4c9') in 0.004894 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004950 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4254.
-Total: 2.904600 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.386900 ms  DeleteObjects: 0.101000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4192.
+Total: 2.786000 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.174300 ms MarkObjects: 2.222000 ms  DeleteObjects: 0.136100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004275 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4258.
-Total: 2.572300 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.236800 ms MarkObjects: 1.926400 ms  DeleteObjects: 0.091900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.936188 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bed2044ebc2ec47b7876e82adb121fa') in 0.016299 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006981 seconds.
+Registered in 0.008088 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -972,27 +518,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
+- Completed reload, in  0.991 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4262.
-Total: 3.222600 ms (FindLiveObjects: 0.512900 ms CreateObjectMapping: 0.259400 ms MarkObjects: 2.333200 ms  DeleteObjects: 0.116100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4196.
+Total: 2.549900 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.166300 ms MarkObjects: 1.932500 ms  DeleteObjects: 0.200600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 836.984764 seconds.
-  path: Assets/Scripts/PauseMenu.cs
-  artifactKey: Guid(b8d39045245665a42b5500ef3439c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PauseMenu.cs using Guid(b8d39045245665a42b5500ef3439c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8763782bd3a31380252a9b1943b7fe96') in 0.011105 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004317 seconds.
+Registered in 0.004113 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1001,82 +541,30 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4267.
-Total: 2.388300 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.216700 ms MarkObjects: 1.810400 ms  DeleteObjects: 0.097500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003614 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4271.
-Total: 2.313500 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.849400 ms  DeleteObjects: 0.080300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003728 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  0.947 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4275.
-Total: 2.240200 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.162000 ms MarkObjects: 1.711100 ms  DeleteObjects: 0.099200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4200.
+Total: 2.397200 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.205000 ms MarkObjects: 1.836100 ms  DeleteObjects: 0.091500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1330.003094 seconds.
-  path: Assets/Scripts/GM.cs
-  artifactKey: Guid(90117e71312240e4cb0e2698a99c1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GM.cs using Guid(90117e71312240e4cb0e2698a99c1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657e7a543933d18b2b68d84ea35f8118') in 0.012690 seconds 
+  Time since last request: 435.531186 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594081236168d035dce1225db7b8019f') in 0.016340 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004210 seconds.
+Registered in 0.003999 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1085,56 +573,24 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.949 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4280.
-Total: 2.396700 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.154000 ms MarkObjects: 1.913800 ms  DeleteObjects: 0.081900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4204.
+Total: 2.178000 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.164200 ms MarkObjects: 1.681000 ms  DeleteObjects: 0.078700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005049 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4284.
-Total: 2.591800 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.195700 ms MarkObjects: 2.062000 ms  DeleteObjects: 0.081600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 764.870889 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c070aabab2762a2040b382eef5ced768') in 0.024445 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005092 seconds.
+Registered in 0.003806 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1146,33 +602,47 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4288.
-Total: 2.446500 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.170300 ms MarkObjects: 1.913300 ms  DeleteObjects: 0.100000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4208.
+Total: 3.217200 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.326300 ms MarkObjects: 2.532900 ms  DeleteObjects: 0.102100 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 1142.218649 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df3e86e862de9a626ba0283c053fce3') in 0.017415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.066482 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa17369ededc9e42f042ad97dcc5bd4') in 0.004095 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004696 seconds.
+Registered in 0.006365 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4212.
+Total: 2.569300 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.198600 ms MarkObjects: 1.989400 ms  DeleteObjects: 0.092600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003852 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1184,27 +654,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  1.007 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4292.
-Total: 3.052300 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.278100 ms MarkObjects: 2.315800 ms  DeleteObjects: 0.111300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4216.
+Total: 2.327800 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.190400 ms MarkObjects: 1.702300 ms  DeleteObjects: 0.137600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 46.906628 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1033711645a285b0ccb90803e9e9f0') in 0.015681 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004209 seconds.
+Registered in 0.004423 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1213,76 +677,74 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4296.
-Total: 3.218600 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.230000 ms MarkObjects: 2.568700 ms  DeleteObjects: 0.111300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004005 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4300.
-Total: 2.900500 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.346100 ms  DeleteObjects: 0.110300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004110 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4220.
+Total: 3.557300 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.244400 ms MarkObjects: 2.838600 ms  DeleteObjects: 0.150700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1353.153466 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(886ccb7034e8de347bcf2a4f392213f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(886ccb7034e8de347bcf2a4f392213f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96e230ac6af3090edac9b9fdcf6cedf') in 0.012802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.284026 seconds.
+  path: Assets/Scripts/CameraFollow.cs
+  artifactKey: Guid(aa4e909b65f03134c96da65663255b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraFollow.cs using Guid(aa4e909b65f03134c96da65663255b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc7cd529436e2146fb229407634e5b7') in 0.019331 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4304.
-Total: 2.569900 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.229800 ms MarkObjects: 1.952400 ms  DeleteObjects: 0.090700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4225.
+Total: 2.286500 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.190200 ms MarkObjects: 1.735100 ms  DeleteObjects: 0.092900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 228.697993 seconds.
+  path: Assets/Scripts/CameraFollow.cs
+  artifactKey: Guid(aa4e909b65f03134c96da65663255b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraFollow.cs using Guid(aa4e909b65f03134c96da65663255b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb2471a4999b07e4bba771d7054f27') in 0.006686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.106346 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf79f9b49ec337860faf4d5c2a51d4f') in 0.015948 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003937 seconds.
+Registered in 0.007175 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1291,154 +753,24 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
+- Completed reload, in  1.046 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4308.
-Total: 2.962500 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.398000 ms  DeleteObjects: 0.113100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4229.
+Total: 3.363600 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.376800 ms MarkObjects: 2.497100 ms  DeleteObjects: 0.097700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004045 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4312.
-Total: 149.681500 ms (FindLiveObjects: 0.479200 ms CreateObjectMapping: 0.328300 ms MarkObjects: 148.739700 ms  DeleteObjects: 0.132900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003511 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4316.
-Total: 3.277800 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.158100 ms MarkObjects: 2.703100 ms  DeleteObjects: 0.159500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004073 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4320.
-Total: 2.391000 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.140600 ms MarkObjects: 1.917600 ms  DeleteObjects: 0.083200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003660 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4324.
-Total: 2.692100 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.307300 ms MarkObjects: 1.931700 ms  DeleteObjects: 0.085500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003974 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4328.
-Total: 2.534500 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.197600 ms MarkObjects: 1.964400 ms  DeleteObjects: 0.087300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004021 seconds.
+Registered in 0.004029 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1450,33 +782,27 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  0.905 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4332.
-Total: 2.520700 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.218500 ms MarkObjects: 1.917800 ms  DeleteObjects: 0.132100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4233.
+Total: 2.538200 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.168800 ms MarkObjects: 2.009600 ms  DeleteObjects: 0.116900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1333.717114 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88732be2a70650fefcfb9517ebcda442') in 0.021275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.230726 seconds.
+  Time since last request: 150.989330 seconds.
   path: Assets/Scenes/Game.unity
   artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73124de397347ba0c61ebf5a066c301') in 0.004212 seconds 
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01eec829d93ca950c4982cc53af175d') in 0.013259 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004165 seconds.
+Registered in 0.004594 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1485,24 +811,24 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  0.960 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4336.
-Total: 2.286900 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.183600 ms MarkObjects: 1.728100 ms  DeleteObjects: 0.111100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4237.
+Total: 5.502700 ms (FindLiveObjects: 0.805800 ms CreateObjectMapping: 1.067200 ms MarkObjects: 3.514000 ms  DeleteObjects: 0.114000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003802 seconds.
+Registered in 0.006879 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1511,24 +837,114 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.1 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4241.
+Total: 2.421100 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.191600 ms MarkObjects: 1.853200 ms  DeleteObjects: 0.102500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.178310 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a08615a1b13f8a3e632752c3be0406') in 0.014465 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4245.
+Total: 2.772000 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.200200 ms MarkObjects: 2.084400 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4249.
+Total: 3.078000 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.332800 ms MarkObjects: 2.220200 ms  DeleteObjects: 0.098000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004580 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4340.
-Total: 3.199500 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.221200 ms MarkObjects: 2.495300 ms  DeleteObjects: 0.120100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4253.
+Total: 3.485800 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.209500 ms MarkObjects: 2.845000 ms  DeleteObjects: 0.112300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 740.003043 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dc5431ce42eae2576d4a93361e18b6') in 0.019968 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005060 seconds.
+Registered in 0.004482 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1537,18 +953,180 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4257.
+Total: 2.379700 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.190900 ms MarkObjects: 1.797800 ms  DeleteObjects: 0.102200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4261.
+Total: 2.608500 ms (FindLiveObjects: 0.319300 ms CreateObjectMapping: 0.262900 ms MarkObjects: 1.930600 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.5 MB.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4344.
-Total: 2.360700 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.197600 ms MarkObjects: 1.776900 ms  DeleteObjects: 0.083700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4265.
+Total: 2.345700 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.174600 ms MarkObjects: 1.804300 ms  DeleteObjects: 0.101400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4269.
+Total: 2.570000 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.263600 ms MarkObjects: 1.875900 ms  DeleteObjects: 0.180800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003941 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4273.
+Total: 3.184800 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.405100 ms MarkObjects: 2.307000 ms  DeleteObjects: 0.094000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.781174 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3102e6109c89142b4a8a5624ef94ad3') in 0.018335 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4277.
+Total: 2.906600 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.257700 ms MarkObjects: 2.163500 ms  DeleteObjects: 0.106100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3635 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4281.
+Total: 2.371300 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.164100 ms MarkObjects: 1.857300 ms  DeleteObjects: 0.086200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
