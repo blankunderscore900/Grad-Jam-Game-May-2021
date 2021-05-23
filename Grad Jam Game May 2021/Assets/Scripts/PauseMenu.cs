@@ -22,7 +22,10 @@ public class PauseMenu : MonoBehaviour
     public float buttonTimer;
     public GameObject PauseButton, OptionsButton, ExitButton, BackButton;
 
+
+
     private MusicLibrary music;
+    [SerializeField] string _SongLevel = "MasterVolume";
 
     private void Awake()
     {
@@ -37,7 +40,9 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UpdateLives();
+        music.MenuMusic = GameObject.Find(_SongLevel).GetComponent<AudioSource>();
+        music.MenuMusic.Play();
+        music.MenuMusic.loop = true;
     }
 
     // Update is called once per frame
@@ -70,14 +75,16 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    public void UpdateLives()
-    {
-        liveTexts.text = "Lives: " + FindObjectOfType<GM>().playerLives.ToString();
-    }
 
     public void MenuScreen()
     {
         Time.timeScale = 1f;
+        music.MenuMusic.Stop();
+        music.Level1Music.Stop();
+        music.Level2Music.Stop();
+        music.Level3Music.Stop();
+        music.Level4Music.Stop();
+        music.Level5Music.Stop();
         SceneManager.LoadScene("MainMenu");
     }
 
