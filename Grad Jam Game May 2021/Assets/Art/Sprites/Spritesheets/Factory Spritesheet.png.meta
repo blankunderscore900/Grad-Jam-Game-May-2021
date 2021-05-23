@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 6787aa8a62929ef488b9cfd8484ea891
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7912192989179722151
+    second: Factory Spritesheet_0
+  - first:
+      213: 769377472961098817
+    second: Factory Spritesheet_1
+  - first:
+      213: 2223928302747739896
+    second: Factory Spritesheet_2
+  - first:
+      213: -8795801954321488600
+    second: Factory Spritesheet_3
+  - first:
+      213: -8870857256623464529
+    second: Factory Spritesheet_4
+  - first:
+      213: 6161220637711362464
+    second: Factory Spritesheet_5
+  - first:
+      213: 7114725630212454355
+    second: Factory Spritesheet_6
+  - first:
+      213: 871867442181090864
+    second: Factory Spritesheet_7
+  - first:
+      213: 9133232248688535974
+    second: Factory Spritesheet_8
+  - first:
+      213: -6946093179138072060
+    second: Factory Spritesheet_9
+  - first:
+      213: -1909538419976092410
+    second: Factory Spritesheet_10
+  - first:
+      213: 1380273065185012346
+    second: Factory Spritesheet_11
+  - first:
+      213: -8067831431672647871
+    second: Factory Spritesheet_12
+  - first:
+      213: 7432631709773707500
+    second: Factory Spritesheet_13
+  - first:
+      213: 3112547299659154987
+    second: Factory Spritesheet_14
+  - first:
+      213: -7265053263529556681
+    second: Factory Spritesheet_15
+  - first:
+      213: 7499716558850719380
+    second: Factory Spritesheet_16
+  - first:
+      213: -3803396301352735821
+    second: Factory Spritesheet_17
+  - first:
+      213: -8923948744708451154
+    second: Factory Spritesheet_18
+  - first:
+      213: 6730102140247975634
+    second: Factory Spritesheet_19
+  - first:
+      213: -5364281962093740224
+    second: Factory Spritesheet_20
+  - first:
+      213: -8720369467298423973
+    second: Factory Spritesheet_21
+  - first:
+      213: 3672128169648504091
+    second: Factory Spritesheet_22
+  - first:
+      213: -7380763445112086337
+    second: Factory Spritesheet_23
+  - first:
+      213: -5940738120770543022
+    second: Factory Spritesheet_24
+  - first:
+      213: -2142058103007325232
+    second: Factory Spritesheet_25
+  - first:
+      213: -2642770373379686711
+    second: Factory Spritesheet_26
+  - first:
+      213: 1692555870436910247
+    second: Factory Spritesheet_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Factory Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2959
+        width: 408
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564b9d956e323290800000000000000
+      internalID: -7912192989179722151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2959
+        width: 404
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144b80e3cb06daa00800000000000000
+      internalID: 769377472961098817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 3070
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6673b220bfcde10800000000000000
+      internalID: 2223928302747739896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 2178
+        width: 1928
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8252bf589b80fe580800000000000000
+      internalID: -8795801954321488600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2181
+        width: 1928
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf13cd235264e480800000000000000
+      internalID: -8870857256623464529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2873
+        width: 231
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a96795c68d018550800000000000000
+      internalID: 6161220637711362464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2706
+        width: 45
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d73e27e3459cb260800000000000000
+      internalID: 7114725630212454355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2712
+        width: 74
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eae6eb1de791c00800000000000000
+      internalID: 871867442181090864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2777
+        width: 324
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e83a1752cfbe70800000000000000
+      internalID: 9133232248688535974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2755
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40226b83e058a9f90800000000000000
+      internalID: -6946093179138072060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2462
+        width: 205
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054d589ce4ff75e0800000000000000
+      internalID: -1909538419976092410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2617
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a646f2a07b72310800000000000000
+      internalID: 1380273065185012346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2617
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fab6fde0e490090800000000000000
+      internalID: -8067831431672647871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1653
+        width: 25
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8bd570923062760800000000000000
+      internalID: 7432631709773707500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1656
+        width: 21
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2609ce274df13b20800000000000000
+      internalID: 3112547299659154987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2184
+        width: 583
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73547097c885d2b90800000000000000
+      internalID: -7265053263529556681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1980
+        width: 185
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e796e9978541860800000000000000
+      internalID: 7499716558850719380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1943
+        width: 115
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe5d5173f973bc0800000000000000
+      internalID: -3803396301352735821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 863
+        width: 1929
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea41cd5d5e3c72480800000000000000
+      internalID: -8923948744708451154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1688
+        width: 1929
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a39b2d30266d50800000000000000
+      internalID: 6730102140247975634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 5603
+        y: 1743
+        width: 305
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ffd560afd3e85b0800000000000000
+      internalID: -5364281962093740224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 5578
+        y: 1462
+        width: 173
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd3870c260bf680800000000000000
+      internalID: -8720369467298423973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 5828
+        y: 1462
+        width: 173
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dba915d1506f230800000000000000
+      internalID: 3672128169648504091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 591
+        width: 1049
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0e7ea60c2429990800000000000000
+      internalID: -7380763445112086337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 604
+        width: 1928
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252a9df87224e8da0800000000000000
+      internalID: -5940738120770543022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5572
+        y: 1169
+        width: 404
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d350022181e542e0800000000000000
+      internalID: -2142058103007325232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 116
+        width: 1929
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef6cfe85ef25bd0800000000000000
+      internalID: -2642770373379686711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Factory Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 147
+        width: 1929
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e4ebb89a2d7710800000000000000
+      internalID: 1692555870436910247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
