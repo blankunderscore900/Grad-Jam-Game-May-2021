@@ -273,6 +273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileMap_Forest
       objectReference: {fileID: 0}
+    - target: {fileID: 6972736465711297878, guid: a83e455b7dba3b54e9667398f7438e68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a83e455b7dba3b54e9667398f7438e68, type: 3}
 --- !u!1001 &795145333688297149
