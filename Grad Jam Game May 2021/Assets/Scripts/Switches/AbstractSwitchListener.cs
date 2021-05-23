@@ -13,8 +13,7 @@ public abstract class AbstractSwitchListener : MonoBehaviour {
     }
 
     private void onStateChange(string switch_id, bool status, GameObject switchObject) {
-        if (switch_id != target_switch_id) return;
-        onSwitchStateChange(status, switchObject);
+        if (switch_id == target_switch_id) onSwitchStateChange(status, switchObject);
     }
 
     public abstract void onSwitchStateChange(bool status, GameObject switchObject);

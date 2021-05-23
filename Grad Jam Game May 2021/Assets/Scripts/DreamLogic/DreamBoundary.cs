@@ -9,6 +9,7 @@ public class DreamBoundary : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log("Trigger");
         (IDreamObject component, bool hasComponent) = GetState(collision);
 
         if (!hasComponent) return;
@@ -18,6 +19,7 @@ public class DreamBoundary : MonoBehaviour {
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
+        Debug.Log("Exit");
         (IDreamObject component, bool hasComponent) = GetState(collision);
 
         if (!hasComponent) return;
