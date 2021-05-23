@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16203 MB
+OS: 'Windows 10 Home; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 8102 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,85 +11,40 @@ C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+C:/Users/blazs/Documents/GitHub/Dream Factory/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57739
-Successfully changed project path to: C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
-C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+50817
+Successfully changed project path to: C:/Users/blazs/Documents/GitHub/Dream Factory/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+C:/Users/blazs/Documents/GitHub/Dream Factory/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 101.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
+Refreshing native plugins compatible for Editor in 124.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021/Assets
+[Subsystems] Discovering subsystems at path C:/Users/blazs/Documents/GitHub/Dream Factory/Grad-Jam-Game-May-2021/Grad Jam Game May 2021/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
-    Vendor:   Intel
-    VRAM:     8101 MB
-    Driver:   25.20.100.6617
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8205
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002213 seconds.
+Registered in 0.079813 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 138.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.281 seconds
+- Completed reload, in  1.749 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.6 MB.
-System memory in use after: 145.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4149.
-Total: 2.455200 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.151200 ms MarkObjects: 1.923700 ms  DeleteObjects: 0.094500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Art/Sprites/Character
-  artifactKey: Guid(32c62d6ee8e939e4fad56debed9d6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character using Guid(32c62d6ee8e939e4fad56debed9d6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256462a511fb967b7183f60494372eb') in 0.007362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.149234 seconds.
-  path: Assets/Art/Sprites/Character/Character 1.psb
-  artifactKey: Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character 1.psb using Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308baef4ddd12a0e3d6b3d98882b0e90') in 0.219970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.605074 seconds.
-  path: Assets/Art/Sprites/Character/CharacterAnimations
-  artifactKey: Guid(0dec0ca60ac72754ab4b7c0a39572381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/CharacterAnimations using Guid(0dec0ca60ac72754ab4b7c0a39572381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e32528f8fc3a4de8de7fffda57191') in 0.003551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.422969 seconds.
-  path: Assets/Scenes/RigAnim.unity
-  artifactKey: Guid(07ef784fcb8d89a469ab782566f3d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RigAnim.unity using Guid(07ef784fcb8d89a469ab782566f3d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6235c2d3d474a83e3f8c008be46b7205') in 0.004524 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.129772 seconds.

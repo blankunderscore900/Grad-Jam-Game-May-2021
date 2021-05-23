@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16203 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16145 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,167 +11,104 @@ C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55699
-Successfully changed project path to: C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
-C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+61128
+Successfully changed project path to: C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/acer/Documents/GitHub/Grad-Jam-Game-May-2021/Grad Jam Game May 2021/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
-    Vendor:   Intel
-    VRAM:     8101 MB
-    Driver:   25.20.100.6617
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002148 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004934 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.93 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
+- Completed reload, in  2.303 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003851 seconds.
+Registered in 0.005458 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.28 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.262 seconds
+- Completed reload, in  1.080 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3689 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.5 MB.
-System memory in use after: 145.7 MB.
+Unloading 3692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4148.
-Total: 4.009400 ms (FindLiveObjects: 0.591400 ms CreateObjectMapping: 0.418500 ms MarkObjects: 2.901700 ms  DeleteObjects: 0.096700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4151.
+Total: 2.497600 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.187700 ms MarkObjects: 1.891700 ms  DeleteObjects: 0.068600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Sprites/Spritesheets
-  artifactKey: Guid(90c5bced99e5f0d4a982bc4c677b8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets using Guid(90c5bced99e5f0d4a982bc4c677b8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d8319957332f49ba8b3c9a5010f3d3') in 0.006037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/Art/Sprites
-  artifactKey: Guid(f63f88f7e49327043a92e9d375e3862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites using Guid(f63f88f7e49327043a92e9d375e3862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81e57b5ab0f1bcd10c4ab7ef38f1683') in 0.002536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Large_Spritesheet.png
-  artifactKey: Guid(5331d0c5ab4500745b7f2b4c0ba01aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Large_Spritesheet.png using Guid(5331d0c5ab4500745b7f2b4c0ba01aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a48a148a588923cb2de3f6366c86f0') in 0.130514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.951633 seconds.
-  path: Assets/Art/Sprites/Character
-  artifactKey: Guid(32c62d6ee8e939e4fad56debed9d6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character using Guid(32c62d6ee8e939e4fad56debed9d6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26bdc6113849cf2a78887632fc5d6af') in 0.003469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.142067 seconds.
-  path: Assets/Art/Sprites/Character/Character.psb
-  artifactKey: Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character.psb using Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d64ad5dbfabe614238250ee24a403bd') in 0.105862 seconds 
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2162654872d493fd58d5c9b78f568198') in 0.013643 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003352 seconds.
+Registered in 0.005567 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\acer\Documents\GitHub\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  1.044 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3640 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.8 MB.
-System memory in use after: 155.0 MB.
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4195.
-Total: 5.829600 ms (FindLiveObjects: 0.566400 ms CreateObjectMapping: 0.709100 ms MarkObjects: 4.520900 ms  DeleteObjects: 0.031700 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4155.
+Total: 2.189500 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.152300 ms MarkObjects: 1.772300 ms  DeleteObjects: 0.013600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 265.863227 seconds.
-  path: Assets/Scenes/RigAnim.unity
-  artifactKey: Guid(07ef784fcb8d89a469ab782566f3d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RigAnim.unity using Guid(07ef784fcb8d89a469ab782566f3d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155949cc82cae4254d1f76be3111ab0a') in 0.019052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.591244 seconds.
-  path: Assets/Scenes/Tutorial.unity
-  artifactKey: Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605c6c79220138005bdd75944525878') in 0.003961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.760975 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(490c2d48da3dc7d449dfa5441051f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872f44981bd138d458a828284d96a0c7') in 0.004598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.097188 seconds.
-  path: Assets/Scenes/PlatTest.unity
-  artifactKey: Guid(bd4bfab29a5e250488d2cbc624ce6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlatTest.unity using Guid(bd4bfab29a5e250488d2cbc624ce6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e878a47b84f05f006a749ff1d476fb6') in 0.003164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 381.758962 seconds.
-  path: Assets/Art/Sprites/Character/Character.psb
-  artifactKey: Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character.psb using Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5b9e946056fe61bb46043033349db3') in 0.117723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.164362 seconds.
-  path: Assets/Art/Sprites/Character/Character.psb
-  artifactKey: Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character.psb using Guid(90055b6702171d04fbde9f38493faf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d1a75c9508a732eb5a4877130df5ec') in 0.026450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 116.326501 seconds.
-  path: Assets/Art/Sprites/Character/Character 1.psb
-  artifactKey: Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character 1.psb using Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91bab5cae9eb66a0137af840baeae50') in 0.124997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 893.877727 seconds.
-  path: Assets/Art/Sprites/Character/Character 1.psb
-  artifactKey: Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/Character 1.psb using Guid(51c043ea14923f8499a45095283329e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad324e5223aab5986005cb67dfa5ab0') in 0.111578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1170.290428 seconds.
-  path: Assets/Art/Sprites/Character/CharacterAnimations
-  artifactKey: Guid(0dec0ca60ac72754ab4b7c0a39572381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Character/CharacterAnimations using Guid(0dec0ca60ac72754ab4b7c0a39572381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a10a28a171dbc8854a5b27fcd5d0169') in 0.003838 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
