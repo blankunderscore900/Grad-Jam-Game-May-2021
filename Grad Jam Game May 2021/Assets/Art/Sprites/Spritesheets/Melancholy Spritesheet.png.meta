@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 69f0bb393d17e284fa85ccab8b7f953f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -136682622726562694
+    second: Melancholy Spritesheet_0
+  - first:
+      213: -7682509595893045672
+    second: Melancholy Spritesheet_1
+  - first:
+      213: -2849723093142600587
+    second: Melancholy Spritesheet_2
+  - first:
+      213: 1430464081026914436
+    second: Melancholy Spritesheet_3
+  - first:
+      213: -3469474130715218771
+    second: Melancholy Spritesheet_4
+  - first:
+      213: -3725752477238341455
+    second: Melancholy Spritesheet_5
+  - first:
+      213: -9217283894551220148
+    second: Melancholy Spritesheet_6
+  - first:
+      213: -6909551156503630486
+    second: Melancholy Spritesheet_7
+  - first:
+      213: 609424552816900439
+    second: Melancholy Spritesheet_8
+  - first:
+      213: -8729979451327049602
+    second: Melancholy Spritesheet_9
+  - first:
+      213: -609000410342564162
+    second: Melancholy Spritesheet_10
+  - first:
+      213: -3026091515064158430
+    second: Melancholy Spritesheet_11
+  - first:
+      213: 1981502814544820289
+    second: Melancholy Spritesheet_12
+  - first:
+      213: -5232319611183566123
+    second: Melancholy Spritesheet_13
+  - first:
+      213: 4525198790272521165
+    second: Melancholy Spritesheet_14
+  - first:
+      213: -5032085675188295113
+    second: Melancholy Spritesheet_15
+  - first:
+      213: -199173433749257999
+    second: Melancholy Spritesheet_16
+  - first:
+      213: 2322697001277787341
+    second: Melancholy Spritesheet_17
+  - first:
+      213: -2774008263784593727
+    second: Melancholy Spritesheet_18
+  - first:
+      213: -963395965882689306
+    second: Melancholy Spritesheet_19
+  - first:
+      213: 5613098524287277174
+    second: Melancholy Spritesheet_20
+  - first:
+      213: 5209299789345983091
+    second: Melancholy Spritesheet_21
+  - first:
+      213: -5149224181047102175
+    second: Melancholy Spritesheet_22
+  - first:
+      213: -2563906293713230331
+    second: Melancholy Spritesheet_23
+  - first:
+      213: 1305726319587369914
+    second: Melancholy Spritesheet_24
+  - first:
+      213: -8048843726358928060
+    second: Melancholy Spritesheet_25
+  - first:
+      213: 898151180906493405
+    second: Melancholy Spritesheet_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2297
+        width: 770
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1a69f0e76a1ef0800000000000000
+      internalID: -136682622726562694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 3235
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856e349e93e326590800000000000000
+      internalID: -7682509595893045672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 3237
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574020df1ffb378d0800000000000000
+      internalID: -2849723093142600587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2292
+        width: 1017
+        height: 966
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4889095b0870ad310800000000000000
+      internalID: 1430464081026914436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 2539
+        width: 463
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacef4109a3f9dfc0800000000000000
+      internalID: -3469474130715218771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2553
+        width: 491
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b05d21acd77b4cc0800000000000000
+      internalID: -3725752477238341455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 2426
+        width: 351
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4078571221a51080800000000000000
+      internalID: -9217283894551220148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4727
+        y: 2452
+        width: 315
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d263fd4d75c10a0800000000000000
+      internalID: -6909551156503630486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2240
+        width: 183
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7597d04e66c157800800000000000000
+      internalID: 609424552816900439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1293
+        width: 1927
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70113341f1e8d680800000000000000
+      internalID: -8729979451327049602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1153
+        width: 2205
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebed6797a556c87f0800000000000000
+      internalID: -609000410342564162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 2000
+        width: 322
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227f6caccc92106d0800000000000000
+      internalID: -3026091515064158430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1391
+        width: 170
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1487166bf46bf7b10800000000000000
+      internalID: 1981502814544820289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 57
+        width: 393
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2f71029011367b0800000000000000
+      internalID: -5232319611183566123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1053
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc39830035cbcce30800000000000000
+      internalID: 4525198790272521165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 851
+        width: 449
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ae1135db07a2ab0800000000000000
+      internalID: -5032085675188295113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 771
+        width: 1926
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04ea831d46c3df0800000000000000
+      internalID: -199173433749257999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 17
+        width: 393
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc0702dd90eb3020800000000000000
+      internalID: 2322697001277787341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1014
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60f117e2eb089d0800000000000000
+      internalID: -2774008263784593727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 998
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8948b297451a2f0800000000000000
+      internalID: -963395965882689306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 40
+        width: 775
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678996d4e5bb5ed40800000000000000
+      internalID: 5613098524287277174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 977
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a0c70fe862b4840800000000000000
+      internalID: 5209299789345983091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 980
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125f5db93e74a88b0800000000000000
+      internalID: -5149224181047102175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 40
+        width: 1039
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a5dd5fcc2b6cd0800000000000000
+      internalID: -2563906293713230331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 14
+        width: 349
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab322ec6b2fde1210800000000000000
+      internalID: 1305726319587369914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 226
+        width: 1926
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445aeb58643cc4090800000000000000
+      internalID: -8048843726358928060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melancholy Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 94
+        width: 1965
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5778c8dbfd67c00800000000000000
+      internalID: 898151180906493405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
