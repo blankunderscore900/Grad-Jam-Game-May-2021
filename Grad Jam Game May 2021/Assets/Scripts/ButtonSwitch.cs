@@ -5,13 +5,24 @@ using UnityEngine;
 public class ButtonSwitch : Switch {
     private static readonly KeyCode TARGET_KEY = KeyCode.E;
 
-    private void OnTriggerStay2D(Collider2D collision) {
-        Debug.Log($"Near the button:  {collision.gameObject.name}");
+    [SavedValue]
+    private bool hasPlayer = false;
+
+    private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag != "Player") return;
-        if (Input.GetKey(TARGET_KEY)) {
-            Debug.Log("It Works");
+
+        hasPlayer = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (collision.gameObject.tag != "Player") return;
+
+        hasPlayer = false;
+    }
+
+    private void Update() {
+        if (hasPlayer && !isSwitchEnabled && Input.GetKeyDown(TARGET_KEY)) {
             isSwitchEnabled = true;
-            //Destroy(this);
         }
     }
 }

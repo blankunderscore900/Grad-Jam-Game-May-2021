@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SwitchedMovingPlatform : MovingPlatformController {
-
+    [SavedValue]
     public bool isMoving;
+
+    [SavedValue]
     public float off_speed;
+
     public string target_switch_id;
 
     private SwitchHelper helper;
@@ -18,7 +21,7 @@ public class SwitchedMovingPlatform : MovingPlatformController {
         return this;
     }
 
-    void Start() {
+    void Awake() {
         if (!isMoving) flipSpeed();
         helper = new SwitchHelper(target_switch_id, OnSwitchStateChanged);
     }
