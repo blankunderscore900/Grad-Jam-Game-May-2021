@@ -130,10 +130,7 @@ public class MenuAnimations : MonoBehaviour
         Application.Quit();
     }
 
-    public void SetLives(int lives)
-    {
-        FindObjectOfType<GM>().playerLives = lives;
-    }
+
 
     public void PlaySoundEffect()
     {

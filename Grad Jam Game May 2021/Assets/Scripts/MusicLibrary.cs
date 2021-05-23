@@ -10,10 +10,14 @@ public class MusicLibrary : MonoBehaviour
     public AudioSource MenuMusic;
     [Tooltip("This song will play in Level 1")]
     public AudioSource Level1Music;
-    [Tooltip("This song will play in Level 2")]
+    [Tooltip("This song will play in Level 2.1")]
     public AudioSource Level2Music;
-    [Tooltip("This song will play in Level 3")]
+    [Tooltip("This song will play in Level 2.2")]
     public AudioSource Level3Music;
+    [Tooltip("This song will play in Level 3")]
+    public AudioSource Level4Music;
+    [Tooltip("This song will play in Level 3")]
+    public AudioSource Level5Music;
 
     [Header("SoundEffects")]
     [Tooltip("This will play when you select a button")]
@@ -25,7 +29,11 @@ public class MusicLibrary : MonoBehaviour
     [Tooltip("This will play when you enter a button")]
     public AudioSource CollisionFX;
     [Tooltip("This will play when you enter a button")]
-    public AudioSource DeathFX;
+    public AudioSource DeathSFX;
+    [Tooltip("This will play when you hit a switch")]
+    public AudioSource SwitchSFX;
+    [Tooltip("This will play when you enter a button")]
+    public AudioSource EmitterSFX;
 
 
     public static MusicLibrary instance;
@@ -46,12 +54,4 @@ public class MusicLibrary : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
-    {
-        ButtonFX = GameObject.FindGameObjectWithTag("ButtonFX").GetComponent<AudioSource>();
-        EnterFX = GameObject.FindGameObjectWithTag("EnterFX").GetComponent<AudioSource>();
-        JumpFX = GameObject.FindGameObjectWithTag("JumpFX").GetComponent<AudioSource>();
-        CollisionFX = GameObject.FindGameObjectWithTag("CollisionFX").GetComponent<AudioSource>();
-        DeathFX = GameObject.FindGameObjectWithTag("DeathFX").GetComponent<AudioSource>();
-    }
 }

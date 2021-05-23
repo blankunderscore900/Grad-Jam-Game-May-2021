@@ -16,6 +16,7 @@ TagManager:
   - Level2
   - Level3
   - Slider
+  - SwitchSFX
   layers:
   - Default
   - TransparentFX
@@ -45,7 +46,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Switch
   - PlatPoint
   - PlayerDrop
   - Platform
