@@ -16,6 +16,7 @@ TagManager:
   - Level2
   - Level3
   - Slider
+  - SwitchSFX
   layers:
   - Default
   - TransparentFX
@@ -39,6 +40,7 @@ TagManager:
   - Bullet
   - Ground
   - Zones
+  - 
   - 
   - 
   - 

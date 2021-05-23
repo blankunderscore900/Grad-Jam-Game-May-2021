@@ -6,7 +6,6 @@ public class GM : MonoBehaviour
 {
     [Header("Player")]
     [Tooltip("Adjust how much lives the player has")]
-    public int playerLives;
 
     public static GM instance;
 
