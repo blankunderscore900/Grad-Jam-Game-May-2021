@@ -41,6 +41,10 @@ public class Player : MonoBehaviour
             Jump();
         }
 
+        if(Input.GetKeyDown(KeyCode.E)){
+            Interact();
+        }
+
         if (!isGrounded)
         {
             // Dashing Left
@@ -110,6 +114,17 @@ public class Player : MonoBehaviour
         {
             rb.velocity = new Vector2(speed * mx, rb.velocity.y);
             
+        }
+    }
+
+    void Interact(){
+        Interactable interactable = Interactable.getInteractable(transform.position);
+        if(interactable == null) return;
+
+        float range = 3.0f;
+
+        if(Vector2.Distance(interactable.transform.position,transform.position) < range){
+            interactable.onActivate.Invoke();
         }
     }
 
