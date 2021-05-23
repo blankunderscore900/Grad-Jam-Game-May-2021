@@ -6,12 +6,18 @@ public class MovingPlatformController : MonoBehaviour
 {
 
     //will want to change direction or stop if a certain "point" is hit
-
+    [SavedValue]
     public float speed;
+
+    [SavedValue]
     public bool isActive = true;
 
     public List<Transform> navPoints = new List<Transform>();
+
+    [SavedValue]
     public Transform currentNavPoint;
+
+    [SavedValue]
     public int navPointIndex;
 
     public Vector3 platVelocity = Vector3.zero;

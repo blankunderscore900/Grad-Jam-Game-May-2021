@@ -138,7 +138,7 @@ public class Player : MonoBehaviour
 
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             jumpCount++;
-            music.JumpFX.Play();
+            // music.JumpFX.Play();
         }
     }
 
