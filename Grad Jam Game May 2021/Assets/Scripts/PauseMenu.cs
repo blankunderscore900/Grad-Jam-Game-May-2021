@@ -13,18 +13,30 @@ public class PauseMenu : MonoBehaviour
     [Header("Game Menus")]
     private GameObject GameScreen;
     private GameObject PauseScreen;
+    private GameObject PauseOptionsScreen;
     [SerializeField]
     [Tooltip("Showing the player how much lives they have")]
     public TextMeshProUGUI liveTexts;
     public bool gameIsPaused;
     private Animator animator;
-    public GameObject PauseButton, OptionsButton, ExitButton;
+    public float buttonTimer;
+    public GameObject PauseButton, OptionsButton, ExitButton, BackButton;
+
+    private MusicLibrary music;
+
+    private void Awake()
+    {
+        GameScreen = GameObject.Find("GameScreen");
+        PauseScreen = GameObject.Find("PauseScreen");
+        PauseOptionsScreen = GameObject.Find("PauseOptionsScreen");
+        music = FindObjectOfType<MusicLibrary>();
+        PauseScreen.SetActive(false);
+        PauseOptionsScreen.SetActive(false);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        GameScreen = GameObject.Find("GameScreen");
-        PauseScreen = GameObject.Find("PauseScreen");
         UpdateLives();
     }
 
@@ -54,6 +66,7 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 1f;
             GameScreen.SetActive(true);
             PauseScreen.SetActive(false);
+            PauseOptionsScreen.SetActive(false);
         }
     }
 
@@ -61,4 +74,34 @@ public class PauseMenu : MonoBehaviour
     {
         liveTexts.text = "Lives: " + FindObjectOfType<GM>().playerLives.ToString();
     }
+
+    public void MenuScreen()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void PauseOptionsMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(BackButton);
+        //Invoke("OptionsMenuButton", buttonTimer);
+    }
+
+    public void MainPauseMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(OptionsButton);
+        //Invoke("OptionsMenuButton", buttonTimer);
+    }
+
+    public void PlaySoundEffect()
+    {
+        music.ButtonFX.Play();
+    }
+    public void PlayEnterEffect()
+    {
+        music.EnterFX.Play();
+    }
+
 }
