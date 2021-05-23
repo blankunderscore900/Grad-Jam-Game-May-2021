@@ -8,7 +8,6 @@ public class Teleport : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Backslash)) {
             var player = GameObject.FindGameObjectWithTag("Player");
             player.transform.position = gameObject.transform.position;
-            Destroy(gameObject);
         }
     }
 }
