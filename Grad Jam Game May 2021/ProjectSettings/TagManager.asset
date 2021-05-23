@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - ButtonFX
+  - EnterFX
+  - JumpFX
+  - CollisionFX
+  - DeathFX
+  - MenuMusic
+  - Level1
+  - Level2
+  - Level3
+  - Slider
   layers:
   - Default
   - TransparentFX

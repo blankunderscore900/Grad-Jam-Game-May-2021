@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private MusicLibrary music;
 
     public float speed;
     public float jumpPower;
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        music = FindObjectOfType<MusicLibrary>();
     }
 
     // Update is called once per frame
@@ -117,8 +119,10 @@ public class Player : MonoBehaviour
     {
         if(isGrounded || jumpCount < extraJumps)
         {
+
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             jumpCount++;
+            music.JumpFX.Play();
         }
     }
 
