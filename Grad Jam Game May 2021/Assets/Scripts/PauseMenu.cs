@@ -22,11 +22,14 @@ public class PauseMenu : MonoBehaviour
     public float buttonTimer;
     public GameObject PauseButton, OptionsButton, ExitButton, BackButton;
 
+    private MusicLibrary music;
+
     private void Awake()
     {
         GameScreen = GameObject.Find("GameScreen");
         PauseScreen = GameObject.Find("PauseScreen");
         PauseOptionsScreen = GameObject.Find("PauseOptionsScreen");
+        music = FindObjectOfType<MusicLibrary>();
         PauseScreen.SetActive(false);
         PauseOptionsScreen.SetActive(false);
     }
@@ -90,6 +93,15 @@ public class PauseMenu : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(OptionsButton);
         //Invoke("OptionsMenuButton", buttonTimer);
+    }
+
+    public void PlaySoundEffect()
+    {
+        music.ButtonFX.Play();
+    }
+    public void PlayEnterEffect()
+    {
+        music.EnterFX.Play();
     }
 
 }

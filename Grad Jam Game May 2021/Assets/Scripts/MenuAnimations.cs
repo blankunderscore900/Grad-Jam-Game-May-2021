@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 
 public class MenuAnimations : MonoBehaviour
@@ -20,17 +19,19 @@ public class MenuAnimations : MonoBehaviour
 
     public float buttonTimer;
 
+    private MusicLibrary music;
+
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-
+        music = FindObjectOfType<MusicLibrary>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        music.MenuMusic = GameObject.FindGameObjectWithTag("MenuMusic").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,9 +42,12 @@ public class MenuAnimations : MonoBehaviour
 
     public void menuStart()
     {
+
         // Plays the animation for opening to the start menu of the game
         EventSystem.current.SetSelectedGameObject(null);
         animator.SetTrigger("MenuScreen");
+        music.MenuMusic.Play();
+        music.MenuMusic.loop = true;
         Invoke("MenuStartButton", buttonTimer);
     }
 
@@ -54,6 +58,7 @@ public class MenuAnimations : MonoBehaviour
 
     public void StartGame()
     {
+        music.MenuMusic.Stop();
         SceneManager.LoadScene("Game");
     }
 
@@ -94,6 +99,8 @@ public class MenuAnimations : MonoBehaviour
         animator.SetTrigger("MenuLeave");
         animator.SetTrigger("QuitMenu");
         EventSystem.current.SetSelectedGameObject(null);
+        music.MenuMusic.Stop();
+        music.MenuMusic.loop = false;
         Invoke("QuitMenu", buttonTimer);
     }
 
@@ -126,6 +133,15 @@ public class MenuAnimations : MonoBehaviour
     public void SetLives(int lives)
     {
         FindObjectOfType<GM>().playerLives = lives;
+    }
+
+    public void PlaySoundEffect()
+    {
+        music.ButtonFX.Play();
+    }
+    public void PlayEnterEffect()
+    {
+        music.EnterFX.Play();
     }
 
 }
