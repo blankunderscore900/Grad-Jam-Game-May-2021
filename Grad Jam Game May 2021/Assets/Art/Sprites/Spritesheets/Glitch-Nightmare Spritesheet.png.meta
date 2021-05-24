@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 192e1fa73b503d343b1df19bf4bc5888
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3688740029896078837
+    second: Glitch-Nightmare Spritesheet_0
+  - first:
+      213: 4817425780248320372
+    second: Glitch-Nightmare Spritesheet_1
+  - first:
+      213: 2487267207432486232
+    second: Glitch-Nightmare Spritesheet_2
+  - first:
+      213: -6498034365430312292
+    second: Glitch-Nightmare Spritesheet_3
+  - first:
+      213: 3313262569814497310
+    second: Glitch-Nightmare Spritesheet_4
+  - first:
+      213: 288551914480570480
+    second: Glitch-Nightmare Spritesheet_5
+  - first:
+      213: -8186818295004758499
+    second: Glitch-Nightmare Spritesheet_6
+  - first:
+      213: 5088529815196208043
+    second: Glitch-Nightmare Spritesheet_7
+  - first:
+      213: -8559231835706324450
+    second: Glitch-Nightmare Spritesheet_8
+  - first:
+      213: -5855604587825177525
+    second: Glitch-Nightmare Spritesheet_9
+  - first:
+      213: -7865663373363338073
+    second: Glitch-Nightmare Spritesheet_10
+  - first:
+      213: 5079242327872581333
+    second: Glitch-Nightmare Spritesheet_11
+  - first:
+      213: -7542771639734698237
+    second: Glitch-Nightmare Spritesheet_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2541
+        width: 101
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ac7419c76feccc0800000000000000
+      internalID: -3688740029896078837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2571
+        width: 86
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479928b293fead240800000000000000
+      internalID: 4817425780248320372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2607
+        width: 386
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dbd78d85c848220800000000000000
+      internalID: 2487267207432486232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2641
+        width: 253
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92de363c2852d5a0800000000000000
+      internalID: -6498034365430312292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 2517
+        width: 98
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e181469b0c21bfd20800000000000000
+      internalID: 3313262569814497310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 2712
+        width: 189
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0709fd9ff64210400800000000000000
+      internalID: 288551914480570480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 2273
+        width: 516
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e7295e224926e80800000000000000
+      internalID: -8186818295004758499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1861
+        width: 321
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab01cf18e61e9640800000000000000
+      internalID: 5088529815196208043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1411
+        width: 352
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a82828eff773980800000000000000
+      internalID: -8559231835706324450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1002
+        width: 1924
+        height: 1086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c5885d6a6bcbea0800000000000000
+      internalID: -5855604587825177525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1590
+        width: 183
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a0e306dc87d290800000000000000
+      internalID: -7865663373363338073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 994
+        width: 1925
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de29f87cf71d7640800000000000000
+      internalID: 5079242327872581333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitch-Nightmare Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 77
+        width: 1086
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff8bf2821b25790800000000000000
+      internalID: -7542771639734698237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
