@@ -16,10 +16,14 @@ public class MenuAnimations : MonoBehaviour
     public GameObject BackButton;
     public GameObject QuitButton;
     public GameObject MenuButton;
+    public GameObject MenuAboutButton;
+    public GameObject AboutButton;
 
     public float buttonTimer;
 
     private MusicLibrary music;
+
+    [SerializeField] string LevelName = "MasterVolume";
 
 
     private void Awake()
@@ -59,7 +63,7 @@ public class MenuAnimations : MonoBehaviour
     public void StartGame()
     {
         music.MenuMusic.Stop();
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(LevelName);
     }
 
     public void OptionsMenu()
@@ -115,6 +119,8 @@ public class MenuAnimations : MonoBehaviour
         // and plays the animations for going to the start menu
         animator.SetTrigger("QuitLeave");
         animator.SetTrigger("MenuScreen");
+        music.MenuMusic.Play();
+        music.MenuMusic.loop = true;
         EventSystem.current.SetSelectedGameObject(null);
         Invoke("BackMenu", buttonTimer);
     }
@@ -122,6 +128,37 @@ public class MenuAnimations : MonoBehaviour
     public void BackMenu()
     {
         EventSystem.current.SetSelectedGameObject(QuitButton);
+    }
+
+    public void EnterAbout()
+    {
+        // Plays the animation for leaving the Main menu
+        // and plays the animations for going to the About menu
+        animator.SetTrigger("MenuLeave");
+        animator.SetTrigger("EnterAbout");
+        EventSystem.current.SetSelectedGameObject(null);
+        Invoke("AboutButtonSelect", buttonTimer);
+    }
+
+    public void AboutButtonSelect()
+    {
+        EventSystem.current.SetSelectedGameObject(MenuAboutButton);
+    }
+
+
+    public void AboutMeun()
+    {
+        // Plays the animation for leaving the About menu
+        // and plays the animations for going to the main menu
+        animator.SetTrigger("LeaveAbout");
+        animator.SetTrigger("MenuScreen");
+        EventSystem.current.SetSelectedGameObject(null);
+        Invoke("AboutMenuButtonSelect", buttonTimer);
+    }
+
+    public void AboutMenuButtonSelect()
+    {
+        EventSystem.current.SetSelectedGameObject(AboutButton);
     }
 
     public void QuitGame()
