@@ -11,13 +11,9 @@ public class DreamBoundary : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-<<<<<<< Updated upstream
         (IDreamObject component, bool hasComponent) = GetState(collision);
-=======
-        Debug.Log("Trigger");
->>>>>>> Stashed changes
 
-        (IDreamObject component, bool hasComponent) = GetState(collision);
+        Debug.Log("Trigger");
         if (!hasComponent) return;
 
         component.isInDream = true;
@@ -25,13 +21,9 @@ public class DreamBoundary : MonoBehaviour {
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-<<<<<<< Updated upstream
-        (IDreamObject component, bool hasComponent) = GetState(collision);
-=======
-        Debug.Log("Exit");
->>>>>>> Stashed changes
 
         (IDreamObject component, bool hasComponent) = GetState(collision);
+        Debug.Log("Exit");
         if (!hasComponent) return;
 
         component.isInDream = false;
