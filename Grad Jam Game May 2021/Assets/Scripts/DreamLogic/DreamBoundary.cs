@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DreamBoundary : MonoBehaviour {
 
+    public Player player;
 
     private static (IDreamObject, bool) GetState(Collider2D collsion) {
         var component = collsion.gameObject.GetComponent<IDreamObject>();
@@ -12,21 +13,17 @@ public class DreamBoundary : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         (IDreamObject component, bool hasComponent) = GetState(collision);
+        Debug.Log("this is working");
+        player.extraJumps = 1;
+        player.IsInDream = true;
 
-        Debug.Log("Trigger");
-        if (!hasComponent) return;
-
-        component.isInDream = true;
-        component.onEnterDream();
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-
-        (IDreamObject component, bool hasComponent) = GetState(collision);
         Debug.Log("Exit");
-        if (!hasComponent) return;
+        (IDreamObject component, bool hasComponent) = GetState(collision);
+        player.extraJumps = 0;
+        player.IsInDream = false;
 
-        component.isInDream = false;
-        component.onExitDream();
     }
 }
