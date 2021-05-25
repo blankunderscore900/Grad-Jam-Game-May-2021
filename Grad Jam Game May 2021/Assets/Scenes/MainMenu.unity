@@ -5104,7 +5104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Music & SFX: Joshua \u201CJoe Sua\u201D Matthews\n\r\nLevel Design: Blaze
     Shiell\n\nPrograming: Nathan \"N8\" Sun & Jordan\r\n\nArt Lead and Animator:
-    Lexis \"Lehxra\" Harvey\n\r\nArt : Janis Schreiber\n\nUI & Sound: Nicholas Bollong\r"
+    Lexis \"Lehxra\" Harvey\n\r\nArt : Janis Schreiber\n\nUI & Sound & Backup Coding:
+    Nicholas Bollong\r\n\nFont acquired from 1001 fonts"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f5dba62233f08274284c9861da8ec4c4, type: 2}
   m_sharedMaterial: {fileID: 7346627904051904046, guid: f5dba62233f08274284c9861da8ec4c4,
@@ -5558,7 +5559,7 @@ MonoBehaviour:
   MenuAboutButton: {fileID: 1872500183}
   AboutButton: {fileID: 1153059547}
   buttonTimer: 0.94
-  LevelName: Level 1
+  LevelName: Tutorial
 --- !u!114 &1815268534
 MonoBehaviour:
   m_ObjectHideFlags: 0

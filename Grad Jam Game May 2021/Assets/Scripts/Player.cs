@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     Transform feet;
 
+    private Animator anim;
+
     int jumpCount = 0;
     bool isGrounded;
     float mx;
@@ -24,12 +26,15 @@ public class Player : MonoBehaviour
 
     public float dashDistance = 15f;
     bool isDashing;
+    bool facingRight;
     float doubleTapTime;
     KeyCode lastKeyCode;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
+        facingRight = true;
         rb = GetComponent<Rigidbody2D>();
         music = FindObjectOfType<MusicLibrary>();
     }
@@ -41,12 +46,15 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            anim.SetBool("isJumping", true);
             Jump();
         }
 
         if(Input.GetKeyDown(KeyCode.E)){
             Interact();
         }
+
+
 
         if (!isGrounded)
         {
@@ -111,12 +119,22 @@ public class Player : MonoBehaviour
         CheckGrounded();
     }
 
+
     private void FixedUpdate()
     {
         if (!isDashing || isGrounded)
         {
             rb.velocity = new Vector2(speed * mx, rb.velocity.y);
-            
+        }
+        Flip(mx);
+
+        if(mx == 0)
+        {
+            anim.SetBool("isRunning", false);
+        }
+        else
+        {
+            anim.SetBool("isRunning", true);
         }
     }
 
@@ -128,17 +146,34 @@ public class Player : MonoBehaviour
 
         if(Vector2.Distance(interactable.transform.position,transform.position) < range){
             interactable.onActivate.Invoke();
+            anim.SetTrigger("use");
         }
     }
 
     void Jump()
     {
-        if(isGrounded || jumpCount < extraJumps)
+        if (isGrounded || jumpCount < extraJumps)
         {
-
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             jumpCount++;
             music.JumpFX.Play();
+<<<<<<< Updated upstream
+=======
+
+        }
+
+    }
+
+    private void Flip(float horizontal)
+    {
+        if(horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+        {
+            facingRight = !facingRight;
+            Vector3 theScale = transform.localScale;
+
+            theScale.x *= -1;
+            transform.localScale = theScale;
+>>>>>>> Stashed changes
         }
     }
 
@@ -148,7 +183,7 @@ public class Player : MonoBehaviour
         {
             isGrounded = true;
             jumpCount = 0;
-            jumpCoolDown = Time.time + 0.2f;
+            jumpCoolDown = Time.time + 0.01f;
         }
         else if(Time.time < jumpCoolDown)
         {
@@ -157,6 +192,7 @@ public class Player : MonoBehaviour
         else
         {
             isGrounded = false;
+            anim.SetBool("isJumping", false);
         }
     }
 

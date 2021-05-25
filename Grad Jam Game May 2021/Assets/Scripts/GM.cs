@@ -9,6 +9,7 @@ public class GM : MonoBehaviour
 
     public static GM instance;
 
+
     private void Awake()
     {
         if(instance == null)
@@ -31,6 +32,5 @@ public class GM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
