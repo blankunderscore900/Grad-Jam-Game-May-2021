@@ -157,8 +157,7 @@ public class Player : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             jumpCount++;
             music.JumpFX.Play();
-<<<<<<< Updated upstream
-=======
+
 
         }
 
@@ -173,7 +172,6 @@ public class Player : MonoBehaviour
 
             theScale.x *= -1;
             transform.localScale = theScale;
->>>>>>> Stashed changes
         }
     }
 
