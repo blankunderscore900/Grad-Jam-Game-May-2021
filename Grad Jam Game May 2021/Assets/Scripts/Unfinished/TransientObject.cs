@@ -8,6 +8,7 @@ public class TransientObject : MonoBehaviour, IDreamObject {
     public bool exists;
 
     private Vector3 scale;
+    //Player JC;
 
     public bool isInDream { get; set; }
 
@@ -22,13 +23,14 @@ public class TransientObject : MonoBehaviour, IDreamObject {
 
     public void onEnterDream() {
         Debug.Log("Vanish");
-        setExistance(true);
+        //setExistance(true);
     }
 
 
     public void onExitDream() {
         Debug.Log("Exist");
         setExistance(false);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

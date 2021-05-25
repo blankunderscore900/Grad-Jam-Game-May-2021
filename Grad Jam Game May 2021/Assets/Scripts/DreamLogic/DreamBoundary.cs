@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DreamBoundary : MonoBehaviour {
+
+
     private static (IDreamObject, bool) GetState(Collider2D collsion) {
         var component = collsion.gameObject.GetComponent<IDreamObject>();
         return (component, component != null);
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        Debug.Log("Trigger");
+<<<<<<< Updated upstream
         (IDreamObject component, bool hasComponent) = GetState(collision);
+=======
+        Debug.Log("Trigger");
+>>>>>>> Stashed changes
 
+        (IDreamObject component, bool hasComponent) = GetState(collision);
         if (!hasComponent) return;
 
         component.isInDream = true;
@@ -19,9 +25,13 @@ public class DreamBoundary : MonoBehaviour {
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        Debug.Log("Exit");
+<<<<<<< Updated upstream
         (IDreamObject component, bool hasComponent) = GetState(collision);
+=======
+        Debug.Log("Exit");
+>>>>>>> Stashed changes
 
+        (IDreamObject component, bool hasComponent) = GetState(collision);
         if (!hasComponent) return;
 
         component.isInDream = false;
