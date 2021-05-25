@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     int jumpCount = 0;
     bool isGrounded;
     bool isInDream = false;
-    bool canJump = true;
+    //bool canJump = true;
 
     public bool IsInDream{
         get{return isInDream;} 
