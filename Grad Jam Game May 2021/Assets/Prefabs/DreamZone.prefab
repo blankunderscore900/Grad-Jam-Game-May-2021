@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3377374306850639427}
   - component: {fileID: 1795495099987749188}
-  - component: {fileID: 1657322510145934720}
   - component: {fileID: 1490351912223997732}
   m_Layer: 0
   m_Name: DreamZone
@@ -86,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1657322510145934720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2747449491361992208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9b8889aa3778be4dad6444acd86fb9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1490351912223997732
 CircleCollider2D:
   m_ObjectHideFlags: 0
