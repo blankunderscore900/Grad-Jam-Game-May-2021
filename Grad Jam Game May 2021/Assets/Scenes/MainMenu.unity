@@ -4265,10 +4265,10 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 5
+    m_Top: 50
     m_Bottom: 50
   m_ChildAlignment: 4
-  m_Spacing: -20
+  m_Spacing: -70
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -5079,7 +5079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -495}
+  m_AnchoredPosition: {x: 960, y: -540}
   m_SizeDelta: {x: 1820, y: 980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701707058
@@ -5105,10 +5105,11 @@ MonoBehaviour:
   m_text: "Music & SFX: Joshua \u201CJoe Sua\u201D Matthews\n\r\nLevel Design: Blaze
     Shiell\n\nPrograming: Nathan \"N8\" Sun & Jordan\r\n\nArt Lead and Animator:
     Lexis \"Lehxra\" Harvey\n\r\nArt : Janis Schreiber\n\nUI & Sound & Backup Coding:
-    Nicholas Bollong\r\n\nFont acquired from 1001 fonts"
+    Nicholas Bollong\r\n\nFonts acquired from 1001 fonts\n\nDreamwood DEMO Font:
+    https://www.1001fonts.com/dreamwood-demo-font.html\n\nDream Night Regular: https://www.1001fonts.com/dream-night-font.html"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5dba62233f08274284c9861da8ec4c4, type: 2}
-  m_sharedMaterial: {fileID: 7346627904051904046, guid: f5dba62233f08274284c9861da8ec4c4,
+  m_fontAsset: {fileID: 11400000, guid: 52f87dfc33a158e4f988e4f7702da5d7, type: 2}
+  m_sharedMaterial: {fileID: 3494774917245927847, guid: 52f87dfc33a158e4f988e4f7702da5d7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5116,7 +5117,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294929269
-  m_fontColor: {r: 0.45882353, g: 0.41960785, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5133,8 +5134,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5766,7 +5767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -1010}
+  m_AnchoredPosition: {x: 960, y: -1005}
   m_SizeDelta: {x: 320, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872500185
