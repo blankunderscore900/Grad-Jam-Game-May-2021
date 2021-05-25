@@ -21,6 +21,13 @@ public class Player : MonoBehaviour
 
     int jumpCount = 0;
     bool isGrounded;
+    bool isInDream = false;
+    bool canJump = true;
+
+    public bool IsInDream{
+        get{return isInDream;} 
+        set{isInDream = value;}}
+
     float mx;
     float jumpCoolDown;
 
@@ -54,9 +61,7 @@ public class Player : MonoBehaviour
             Interact();
         }
 
-
-
-        if (!isGrounded)
+        if (!isGrounded && isInDream)
         {
             // Dashing Left
             if (Input.GetKeyDown(KeyCode.A))
@@ -152,7 +157,8 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (isGrounded || jumpCount < extraJumps)
+        //if((isGrounded^IsInDream) || jumpCount < extraJumps)
+        if(isGrounded || jumpCount < extraJumps)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             jumpCount++;
@@ -193,6 +199,7 @@ public class Player : MonoBehaviour
             anim.SetBool("isJumping", false);
         }
     }
+
 
     IEnumerator Dash (float direction)
     {

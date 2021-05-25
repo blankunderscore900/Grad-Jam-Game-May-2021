@@ -10,23 +10,18 @@ public class DreamBoundary : MonoBehaviour {
         return (component, component != null);
     }
 
+    public Player player;
+
     private void OnTriggerEnter2D(Collider2D collision) {
         (IDreamObject component, bool hasComponent) = GetState(collision);
+        player.IsInDream = true;
 
-        Debug.Log("Trigger");
-        if (!hasComponent) return;
-
-        component.isInDream = true;
-        component.onEnterDream();
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-
+        //Debug.Log("Exit");
         (IDreamObject component, bool hasComponent) = GetState(collision);
-        Debug.Log("Exit");
-        if (!hasComponent) return;
+        player.IsInDream = false;
 
-        component.isInDream = false;
-        component.onExitDream();
     }
 }
