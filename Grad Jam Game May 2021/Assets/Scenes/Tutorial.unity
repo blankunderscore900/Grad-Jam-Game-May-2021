@@ -904,6 +904,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformPoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2972629856876383276, guid: 0696fc65be6763641b10691ac98b69c9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2972629856876383277, guid: 0696fc65be6763641b10691ac98b69c9,
         type: 3}
       propertyPath: m_RootOrder
@@ -1370,6 +1375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlatformPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972629856876383276, guid: 0696fc65be6763641b10691ac98b69c9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2972629856876383277, guid: 0696fc65be6763641b10691ac98b69c9,
         type: 3}
