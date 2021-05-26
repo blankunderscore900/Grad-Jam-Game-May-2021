@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     int jumpCount = 0;
     bool isGrounded;
     bool isInDream = false;
-    bool canJump = true;
+    //bool canJump = true;
 
     public bool IsInDream{
         get{return isInDream;} 
@@ -152,6 +152,7 @@ public class Player : MonoBehaviour
         if(Vector2.Distance(interactable.transform.position,transform.position) < range){
             interactable.onActivate.Invoke();
             anim.SetTrigger("use");
+            music.SwitchSFX.Play();
         }
     }
 

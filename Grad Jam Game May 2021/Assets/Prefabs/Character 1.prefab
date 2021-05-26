@@ -1417,6 +1417,7 @@ GameObject:
   - component: {fileID: 6091928387971295173}
   - component: {fileID: 4918455944016221069}
   - component: {fileID: 7705630529428085067}
+  - component: {fileID: 8890539133474298768}
   m_Layer: 13
   m_Name: Character 1
   m_TagString: Untagged
@@ -1561,7 +1562,7 @@ MonoBehaviour:
   extraJumps: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 1048576
+    m_Bits: 2148532224
   rb: {fileID: 4918455944016221069}
   feet: {fileID: 8272499160519446641}
   dashDistance: 15
@@ -1612,6 +1613,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.496395, y: 20.404577}
   m_EdgeRadius: 0
+--- !u!114 &8890539133474298768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874750958926825007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa629cb25db56f4390a889d5da5bca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 6091928387971295173}
+  platCollider: {fileID: 0}
 --- !u!1 &6367675455128923430
 GameObject:
   m_ObjectHideFlags: 0
