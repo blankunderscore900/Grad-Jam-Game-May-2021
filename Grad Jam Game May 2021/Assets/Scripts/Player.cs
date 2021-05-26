@@ -152,6 +152,7 @@ public class Player : MonoBehaviour
         if(Vector2.Distance(interactable.transform.position,transform.position) < range){
             interactable.onActivate.Invoke();
             anim.SetTrigger("use");
+            music.SwitchSFX.Play();
         }
     }
 
