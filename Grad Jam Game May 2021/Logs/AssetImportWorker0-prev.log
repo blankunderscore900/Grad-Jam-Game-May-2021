@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tetsu/Downloads/Grad-Jam-Game-May-2021-main/Grad Jam Game May 2021 - Test
+C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51731
-Successfully changed project path to: C:/Users/tetsu/Downloads/Grad-Jam-Game-May-2021-main/Grad Jam Game May 2021 - Test
-C:/Users/tetsu/Downloads/Grad-Jam-Game-May-2021-main/Grad Jam Game May 2021 - Test
+52355
+Successfully changed project path to: C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
+C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tetsu/Downloads/Grad-Jam-Game-May-2021-main/Grad Jam Game May 2021 - Test/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tetsu/Desktop/Unity Games/Grad-Jam-Game-May-2021/Grad Jam Game May 2021/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,213 +43,443 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004193 seconds.
+Registered in 0.004198 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.282 seconds
+- Completed reload, in  2.043 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004650 seconds.
+Registered in 0.004854 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3712 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
+System memory in use after: 147.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4169.
-Total: 2.925400 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.222100 ms MarkObjects: 2.315800 ms  DeleteObjects: 0.060200 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4171.
+Total: 2.357600 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.199700 ms MarkObjects: 1.817600 ms  DeleteObjects: 0.052800 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/Tutorial.unity
   artifactKey: Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e946813360fc6eeceb3e484d25e4d12') in 0.014796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(dd577c3ff4baeb74785912fee633939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(dd577c3ff4baeb74785912fee633939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05231846f9830f2c3f51f7fb4fba8371') in 0.002445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.574586 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(2ce4cea3327296147a6b4a7c805636b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(2ce4cea3327296147a6b4a7c805636b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc31af94d9fa0db53d83db8078e3ee4') in 0.004971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.539367 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(e6d218b1496728f4ebbbd78e23003e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(e6d218b1496728f4ebbbd78e23003e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953e092a8504e7c1d74a70ad3751442a') in 0.004494 seconds 
+Start importing Assets/Scenes/Tutorial.unity using Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030e209c876588774c138e8b3b571d6e') in 0.014395 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004631 seconds.
+Registered in 0.004321 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  0.930 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 142.1 MB.
-System memory in use after: 142.4 MB.
+System memory in use after: 142.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4173.
-Total: 4.466700 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 1.805900 ms MarkObjects: 2.361600 ms  DeleteObjects: 0.018400 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4174.
+Total: 2.623100 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.236400 ms MarkObjects: 2.058700 ms  DeleteObjects: 0.042300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.839515 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(886ccb7034e8de347bcf2a4f392213f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(886ccb7034e8de347bcf2a4f392213f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2664a9ce490e916067eab782959a2ff') in 0.010241 seconds 
+  Time since last request: 83.444562 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(e0fd34d8fc467f54db95064b9d1c6ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706e6392e217aec610b814b561bbcb0') in 0.015307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.599264 seconds.
-  path: Assets/Scripts/Interactable.cs
-  artifactKey: Guid(08c918bd3ff98834488b5d53d23f9940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Interactable.cs using Guid(08c918bd3ff98834488b5d53d23f9940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564aec7bee3c9312bb77cac181d01844') in 0.023038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 113.913011 seconds.
-  path: Assets/Art
-  artifactKey: Guid(525e9e3ce206842488616e9ed5c51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(525e9e3ce206842488616e9ed5c51a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3481fa7046314dcaab4b356e45c9b0fa') in 0.003090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046565 seconds.
-  path: Assets/Art/TitleScreen.png
-  artifactKey: Guid(f1b3af2ba066ecb4a9fcda2b5196ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/TitleScreen.png using Guid(f1b3af2ba066ecb4a9fcda2b5196ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3031be4a3800229812f15bb0e4171986') in 0.106612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Art/TitleScreen2.png
-  artifactKey: Guid(f0affba900384274eb9629aa2a4f61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/TitleScreen2.png using Guid(f0affba900384274eb9629aa2a4f61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2b5f4b5c5578c233526a182cd8d261') in 0.017620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.199902 seconds.
-  path: Assets/Art/Sprites
-  artifactKey: Guid(f63f88f7e49327043a92e9d375e3862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites using Guid(f63f88f7e49327043a92e9d375e3862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e585992b7fa70c74e058275df21efd') in 0.002597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083816 seconds.
-  path: Assets/Art/Sprites/dj.PNG
-  artifactKey: Guid(24fabad16e32c6a479fec796f696da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/dj.PNG using Guid(24fabad16e32c6a479fec796f696da0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d6cd82a238a869ab7b5ed747bedff') in 0.014546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.630015 seconds.
-  path: Assets/Art/Sprites/Spritesheets
-  artifactKey: Guid(90c5bced99e5f0d4a982bc4c677b8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets using Guid(90c5bced99e5f0d4a982bc4c677b8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a2ebe5e2214fbb6c0abfd147135851') in 0.002500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.077185 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Cloud Spritesheet.png
-  artifactKey: Guid(9ccb139b167e61f488e957a3f7e5a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Cloud Spritesheet.png using Guid(9ccb139b167e61f488e957a3f7e5a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ef49501024ba94dc09cf2f79af636d') in 0.064697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Factory Spritesheet.png
-  artifactKey: Guid(6787aa8a62929ef488b9cfd8484ea891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Factory Spritesheet.png using Guid(6787aa8a62929ef488b9cfd8484ea891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78200f0a9f2cc20826e5c269ef00701') in 0.087654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Switch.png
-  artifactKey: Guid(4c8647ea96d3a554e82f0773780e394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Switch.png using Guid(4c8647ea96d3a554e82f0773780e394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49330f17a7e1afb00aa7377c1849d2fe') in 0.018152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Melancholy Spritesheet.png
-  artifactKey: Guid(69f0bb393d17e284fa85ccab8b7f953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Melancholy Spritesheet.png using Guid(69f0bb393d17e284fa85ccab8b7f953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f0a2e6157a7a657124299f278bb1a1') in 0.096265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Art/Sprites/Spritesheets/CloudFactoryTile.png
-  artifactKey: Guid(769c14b0a5cd33f419be883b2669b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/CloudFactoryTile.png using Guid(769c14b0a5cd33f419be883b2669b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faf0ee72c5c2746781de83d7c0ce914') in 0.036640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Art/Sprites/Spritesheets/Glitch-Nightmare Spritesheet.png
-  artifactKey: Guid(192e1fa73b503d343b1df19bf4bc5888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/Glitch-Nightmare Spritesheet.png using Guid(192e1fa73b503d343b1df19bf4bc5888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c4ba4c5f092f3cb152aad2842ef262') in 0.065096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Art/Sprites/Spritesheets/TestText.png
-  artifactKey: Guid(623e026768cb4b340b23b5d4fd092b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/TestText.png using Guid(623e026768cb4b340b23b5d4fd092b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cb4bb5f5cee9475fd9b1bf64438436') in 0.024361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Art/Sprites/Spritesheets/CloudPlatform.png
-  artifactKey: Guid(2745bbe86979479429b5f133f125e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Spritesheets/CloudPlatform.png using Guid(2745bbe86979479429b5f133f125e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9636097bf058f1b31ea125ca822ae524') in 0.013312 seconds 
+  Time since last request: 5.215002 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(f9c961365b90fa84f86e02cf9b90d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b70a26bcc8baab12e5248910e64239c') in 0.003789 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004734 seconds.
+Registered in 0.004389 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Downloads\Grad-Jam-Game-May-2021-main\Grad Jam Game May 2021 - Test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4178.
+Total: 2.542500 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.155500 ms MarkObjects: 2.110000 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.522698 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc00a7e32efcfb33ef997930e5d5e5f9') in 0.015945 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4182.
+Total: 3.325100 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.364200 ms MarkObjects: 2.534500 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003391 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4186.
+Total: 2.173400 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.193800 ms MarkObjects: 1.691500 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003573 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4190.
+Total: 2.457300 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.192000 ms MarkObjects: 1.969100 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.968 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.9 MB.
-System memory in use after: 195.1 MB.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4503.
-Total: 2.665300 ms (FindLiveObjects: 0.324300 ms CreateObjectMapping: 0.222600 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.034100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4194.
+Total: 3.272200 ms (FindLiveObjects: 0.438900 ms CreateObjectMapping: 0.256500 ms MarkObjects: 2.551200 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.967352 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc48aeabb644fa6a703c5c7cb415e78') in 0.021821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.869757 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960934f967eb54d08bc1071ff421ac11') in 0.083696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.033246 seconds.
+  path: Assets/Scripts/DoorTransfer.cs
+  artifactKey: Guid(8778bb190e0db41468f09643255a357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DoorTransfer.cs using Guid(8778bb190e0db41468f09643255a357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8068d36a57740d6bcc54ca60b166293c') in 0.005613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 294.167572 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adda021a446f0addc2ef78294f8a55c') in 0.015086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.590585 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(440507127f5add7409b20e82e3169905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(440507127f5add7409b20e82e3169905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2509a4e8110dfc13eafcd37bcc7a6dac') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109789 seconds.
+  path: Assets/Prefabs/Anti-stick.physicsMaterial2D
+  artifactKey: Guid(ce935389fba2d80468ee7ec84202206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Anti-stick.physicsMaterial2D using Guid(ce935389fba2d80468ee7ec84202206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8c527ab506e331f618a7c8e7b90dfd') in 0.004666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/DeathBox.prefab
+  artifactKey: Guid(6ec460d8289e6854483aac58f69c3d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathBox.prefab using Guid(6ec460d8289e6854483aac58f69c3d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68f67fc90375339a54ca04d2ce50e29') in 0.012257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Prefabs/PauseMenu.prefab
+  artifactKey: Guid(580f9babe755808408448733dd7a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseMenu.prefab using Guid(580f9babe755808408448733dd7a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe9889510fc0a90698b6c053729d6c9') in 0.059139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Character 1.prefab
+  artifactKey: Guid(e72225f7813de7b42baf2225a9555a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character 1.prefab using Guid(e72225f7813de7b42baf2225a9555a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe988223b63daa190fae5f8cf4c3558b') in 0.045936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Prefabs/Platform.prefab
+  artifactKey: Guid(148f3ae92f5b80b4a970389e400c9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platform.prefab using Guid(148f3ae92f5b80b4a970389e400c9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3f68c416c84ec69c1ac7bff7ca70f') in 0.009054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ff8069aeffd32324e85f7450613e5d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ff8069aeffd32324e85f7450613e5d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0a76001f6dfaf3dd3b133f6a561648') in 0.013056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefabs/Sound.prefab
+  artifactKey: Guid(069c9469332abcf499db328275daeb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sound.prefab using Guid(069c9469332abcf499db328275daeb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c80a5f190cefeec85a58fdcc8dd096b') in 0.005610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/EventSystem.prefab
+  artifactKey: Guid(15c40a146882ec044a2e2661e54438e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EventSystem.prefab using Guid(15c40a146882ec044a2e2661e54438e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffaf2e73d064b09aeb9120f348d2891') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Prefabs/Switch.prefab
+  artifactKey: Guid(df471645b49008142b09655846330c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Switch.prefab using Guid(df471645b49008142b09655846330c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d18c982c89ae1f209f651366e45cd3') in 0.011696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/DreamZone.prefab
+  artifactKey: Guid(2f09ae8e1046d1b49957d13daa1742f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DreamZone.prefab using Guid(2f09ae8e1046d1b49957d13daa1742f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10534f06d59ec130d3b480b605ee0a15') in 0.008880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Prefabs/GM.prefab
+  artifactKey: Guid(3956e29c0ddc06c46af592c1b68d72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GM.prefab using Guid(3956e29c0ddc06c46af592c1b68d72a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c4b01c0b3536cb6aa31cd2b3f25d83') in 0.004275 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003352 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4237.
+Total: 2.302800 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.180300 ms MarkObjects: 1.839900 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.520170 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(2ce4cea3327296147a6b4a7c805636b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(2ce4cea3327296147a6b4a7c805636b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd157edb253c2f40489a3f3f715809b77') in 0.013844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.785364 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(e6d218b1496728f4ebbbd78e23003e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(e6d218b1496728f4ebbbd78e23003e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad89c4db811f3fe0c7262d9d737227') in 0.002991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.477340 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(9469870cd66cb3e4ea63fca2cfaeb020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f402d5a97c9c1a81f4114d3c8ebaf765') in 0.003628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.998326 seconds.
+  path: Assets/Art/Sprites/Spritesheets/Materials
+  artifactKey: Guid(cea207ef07608f1408253a5f36a71bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Spritesheets/Materials using Guid(cea207ef07608f1408253a5f36a71bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3c22b788ec7ea8d3439ca76871b2a') in 0.002860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132083 seconds.
+  path: Assets/Art/Sprites/Spritesheets/Materials/Switch.mat
+  artifactKey: Guid(cc98d81cbe61f7b4a92500fb1e58801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Spritesheets/Materials/Switch.mat using Guid(cc98d81cbe61f7b4a92500fb1e58801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6adc7ec499474ceed6e37a6ae418a4') in 0.047842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587963 seconds.
+  path: Assets/Art/Sprites/Spritesheets/placeholder
+  artifactKey: Guid(9816b03ba34060f4b9be6178b91e5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Spritesheets/placeholder using Guid(9816b03ba34060f4b9be6178b91e5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224445ff1e3ec6abe45eeaed61d125ba') in 0.002786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067684 seconds.
+  path: Assets/Art/Sprites/Spritesheets/placeholder/Doors.png
+  artifactKey: Guid(26d775253f9e2ca4ea99ab58dadc82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Spritesheets/placeholder/Doors.png using Guid(26d775253f9e2ca4ea99ab58dadc82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1f8528485522d442fa281c02842a0a') in 0.034268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/Sprites/Spritesheets/placeholder/Large_Spritesheet.png
+  artifactKey: Guid(5331d0c5ab4500745b7f2b4c0ba01aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Spritesheets/placeholder/Large_Spritesheet.png using Guid(5331d0c5ab4500745b7f2b4c0ba01aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d7e30db563579e706d1f91565fdab') in 0.052035 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.2 MB.
+System memory in use after: 159.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4342.
+Total: 2.726700 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.172100 ms MarkObjects: 2.276800 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003614 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tetsu\Desktop\Unity Games\Grad-Jam-Game-May-2021\Grad Jam Game May 2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4346.
+Total: 2.258300 ms (FindLiveObjects: 0.280200 ms CreateObjectMapping: 0.177900 ms MarkObjects: 1.786100 ms  DeleteObjects: 0.013400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
