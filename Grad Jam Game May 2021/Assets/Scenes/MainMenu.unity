@@ -5105,8 +5105,9 @@ MonoBehaviour:
   m_text: "Music & SFX: Joshua \u201CJoe Sua\u201D Matthews\n\r\nLevel Design: Blaze
     Shiell\n\nPrograming: Nathan \"N8\" Sun & Jordan\r\n\nArt Lead and Animator:
     Lexis \"Lehxra\" Harvey\n\r\nArt : Janis Schreiber\n\nUI & Sound & Backup Coding:
-    Nicholas Bollong\r\n\nFonts acquired from 1001 fonts\n\nDreamwood DEMO Font:
-    https://www.1001fonts.com/dreamwood-demo-font.html\n\nDream Night Regular: https://www.1001fonts.com/dream-night-font.html"
+    Nicholas Bollong\r\n\nQA : Lexis \"Lehxra\" Harvey, Nathan \"N8\" Sun, and Nicholas
+    Bollong\n\nFonts acquired from 1001 fonts\n\nDreamwood DEMO Font: https://www.1001fonts.com/dreamwood-demo-font.html\n\nDream
+    Night Regular: https://www.1001fonts.com/dream-night-font.html"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52f87dfc33a158e4f988e4f7702da5d7, type: 2}
   m_sharedMaterial: {fileID: 3494774917245927847, guid: 52f87dfc33a158e4f988e4f7702da5d7,
@@ -5134,15 +5135,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 32
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
